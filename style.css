@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  text-align: justify;
+}
+
+.text-highlight {
+  color: orange;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  color: dimgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(90deg, orange, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+
+.top-section img{
+  width: 100%;
+}
+
+.mid-section img{
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#project-showcase {
+  padding: 20px;
+}
+
+.box {
+  margin-left: 1%;
+  padding: 1%;
+  float: left;
+  text-align: center;
+  width: 30%;
+  box-shadow: 2px 5px 400px gray;
+  border-radius: 10px;
+}
+
+#project-showcase .box h1{
+  font-size: 20px;
+}
+
+#project-showcase .box img {
+  width: 80%;
+  height: auto;
+}
