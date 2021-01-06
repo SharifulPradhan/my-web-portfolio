@@ -48,15 +48,6 @@ section {
   width: 100%;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
-
-#project-showcase {
-  padding: 20px;
-}
 
 .box {
   margin-left: 1%;
@@ -64,15 +55,22 @@ section {
   float: left;
   text-align: center;
   width: 30%;
-  box-shadow: 2px 5px 400px gray;
+  box-shadow: 2px 7px 40px gray;
   border-radius: 10px;
 }
 
 #project-showcase .box h1{
   font-size: 20px;
+  
 }
 
 #project-showcase .box img {
   width: 80%;
   height: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
 }
